@@ -370,13 +370,19 @@ body {
     }
   
     /* Hero */
-    .hero .container {
-      flex-direction: column;
-    }
+  .hero {
+    height: auto; /* Change the height to auto */
+    padding: 30px 0; /* Add some padding to the top and bottom */
+  }
   
-    .hero .container h2 {
-      margin-bottom: 20px;
-    }
+  .hero .container h2 {
+    font-size: 24px; /* Decrease the font size */
+    margin-bottom: 20px;
+  }
+  
+  .hero .container p {
+    font-size: 16px; /* Decrease the font size */
+  }
   
     /* Featured Articles */
     .featured-articles {
