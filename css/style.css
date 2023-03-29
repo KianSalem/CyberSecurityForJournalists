@@ -366,6 +366,27 @@ body {
   }
 }
 
+.article-list {
+  margin-top: 20px;
+}
+
+.article-item {
+  margin-bottom: 30px;
+}
+
+.article-item h3 {
+  margin-bottom: 10px;
+}
+
+.article-item h3 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-item h3 a:hover {
+  text-decoration: underline;
+}
+
 /* Mobile styles */
 @media screen and (max-width: 767px) {
     
