@@ -283,3 +283,135 @@ body {
   footer p {
     font-size: 14px;
   }
+
+  /* Mobile styles */
+@media screen and (max-width: 767px) {
+  /* Header */
+  header .container {
+    flex-direction: column;
+  }
+
+  header .logo {
+    margin-bottom: 10px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    margin-bottom: 5px;
+  }
+
+  /* Hero */
+  .hero .container {
+    flex-direction: column;
+  }
+
+  .hero .container h2 {
+    margin-bottom: 20px;
+  }
+
+  /* Featured Articles */
+  .featured-articles {
+    flex-direction: column;
+  }
+
+  .featured-articles .article {
+    margin-bottom: 20px;
+  }
+
+  /* Testimonials */
+  .testimonials .testimonial {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Team Section */
+  .team-members {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .team-member {
+    flex: 0 0 50%;
+    margin-bottom: 0;
+  }
+
+  /* Resource Categories */
+  .resource-categories ul {
+    flex-direction: column;
+  }
+
+  .resource-categories li {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+    /* Header */
+    header .container {
+      flex-direction: column;
+    }
+  
+    header .logo {
+      margin-bottom: 10px;
+    }
+  
+    header nav ul {
+      flex-direction: column;
+    }
+  
+    header nav ul li {
+      margin-bottom: 5px;
+    }
+  
+    /* Hero */
+    .hero .container {
+      flex-direction: column;
+    }
+  
+    .hero .container h2 {
+      margin-bottom: 20px;
+    }
+  
+    /* Featured Articles */
+    .featured-articles {
+      flex-direction: column;
+    }
+  
+    .featured-articles .article {
+      margin-bottom: 20px;
+    }
+  
+    /* Testimonials */
+    .testimonials .testimonial {
+      flex-basis: 100%;
+      margin-bottom: 20px;
+    }
+  
+    /* Team Section */
+    .team-members {
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+  
+    .team-member {
+      flex: 0 0 50%;
+      margin-bottom: 0;
+    }
+  
+    /* Resource Categories */
+    .resource-categories ul {
+      flex-direction: column;
+    }
+  
+    .resource-categories li {
+      flex-basis: 100%;
+      margin-bottom: 10px;
+    }
+  }
